@@ -9,7 +9,7 @@ As this is the bootstrap compiler implementation, there is zero intention to kee
 # Important details relating to this implentation.
 * This implementation doesn't provide proper support for import
 * Import can only import a list of hardcoded libraries provided by the compiler
-* The bootstrap compiler doesn't produce Rozenite bytecode for [the runtime](https://github.com/Ayeon389/rozenite-runtime), it produces typescript.  
+* The bootstrap compiler doesn't produce Rozenite bytecode for [the runtime](https://github.com/Ayeon389/rozenite-runtime), it directly executes it's own AST using it's own inline as-needed implementation of runtime stdlib. The pro for doing this, is that the bytecode emitting code only needs to be written once. The innate con, this is probably very slow. If it is too slow, i'd rather attempt transpiling to javascript before writing code to emit bytecode.
 
 # List of Rozenite repositories.
 * [The Runtime](https://github.com/Ayeon389/rozenite-runtime)
