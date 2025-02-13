@@ -2,7 +2,7 @@
 Rozenite is an embeddable lightweight efficient, statically typed, procedural programming language.
 
 # Okay so, what's inside this repository?
-This repository contains a bootstrap compiler written in typescript.
+This repository contains a bootstrap compiler written in javascript.
 
 As this is the bootstrap compiler implementation, there is zero intention to keep maintained once it is capable of being used to compile a minimal functioning implementation of a compiler written in Rozenite itself.
 
