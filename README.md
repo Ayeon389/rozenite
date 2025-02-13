@@ -10,3 +10,8 @@ As this is the bootstrap compiler implementation, there is zero intention to kee
 * This implementation doesn't provide proper support for import
 * Import can only import a list of hardcoded libraries provided by the compiler
 * The bootstrap compiler doesn't produce Rozenite bytecode for [the runtime](https://github.com/Ayeon389/rozenite-runtime), it produces typescript.  
+
+# List of Rozenite repositories.
+* [The Runtime](https://github.com/Ayeon389/rozenite-runtime)
+* [The Bootstrap Compiler](https://github.com/Ayeon389/rozenite-runtime)
+* [The Specification's For Rozenite](https://github.com/Ayeon389/rozenite-runtime)
