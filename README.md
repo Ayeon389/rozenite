@@ -13,5 +13,5 @@ As this is the bootstrap compiler implementation, there is zero intention to kee
 
 # List of Rozenite repositories.
 * [The Runtime](https://github.com/Ayeon389/rozenite-runtime)
-* [The Bootstrap Compiler](https://github.com/Ayeon389/rozenite-runtime)
-* [The Specification's For Rozenite](https://github.com/Ayeon389/rozenite-runtime)
+* [The Bootstrap Compiler](https://github.com/Ayeon389/rozenite-compiler)
+* [The Specification's For Rozenite](https://github.com/Ayeon389/rozenite-spec)
